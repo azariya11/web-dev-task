@@ -1,0 +1,111 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color:white;
+}
+
+h1{
+     color: rgb(83, 83, 83);
+     font-style: bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 1200%;
+     
+    }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://media.istockphoto.com/id/472336288/photo/out-of-focus-office-open-corridor-background.jpg?s=612x612&w=0&k=20&c=pjhaH7F7qVH8ku0x-XxSUjeioXB-SKKeuHm715liNhQ=);
+    background-size: cover;
+    background-position: center;
+}
+
+.team {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.team h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    background: white;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-member h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: gray;
+    margin: 0;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: blue; 
+    font-size: 1.2em;
+}
+
+.social-links a:first-child {
+    color: rgb(73, 205, 223); 
+}
+
+.social-links a i {
+    transition: color 0.3s;
+}
+
+.social-links a:hover i {
+    color: black; 
+}
